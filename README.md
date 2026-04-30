@@ -48,6 +48,7 @@ cat < file1
 
 cat < file2
 ## OUTPUT
+<img width="437" height="238" alt="image" src="https://github.com/user-attachments/assets/627aa434-cee4-4fa9-85b3-64a75d571e42" />
 
 
 # Comparing Files
@@ -331,18 +332,25 @@ seq 3 | sed '2a hello'
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+<img width="561" height="184" alt="image" src="https://github.com/user-attachments/assets/bf8fe098-c762-42c7-884a-97e709b9536e" />
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
+<img width="500" height="180" alt="image" src="https://github.com/user-attachments/assets/abb3a577-110f-41aa-8e09-3eeb0e1fb06e" />
+
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+<img width="546" height="162" alt="image" src="https://github.com/user-attachments/assets/0ff0494e-4b5c-4096-a5b3-3f95c15f849d" />
+
 
 
 sed -n '2,4{s/$/*/;p}' file23
+
+<img width="592" height="187" alt="image" src="https://github.com/user-attachments/assets/189aa5e8-fb32-4a26-a5f5-352359b5a2a5" />
 
 
 #Sorting File content
@@ -521,6 +529,8 @@ abcd
  
 echo $?
  ## OUTPUT
+
+<img width="434" height="83" alt="Screenshot 2026-04-29 201727" src="https://github.com/user-attachments/assets/9ae14d6e-a958-4e67-840a-b6edfa75f3f4" />
 
 
  
