@@ -213,15 +213,13 @@ egrep '((W|w)orld$)' newfile
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+<img width="309" height="103" alt="Screenshot 2026-04-30 071404" src="https://github.com/user-attachments/assets/3b02e76e-b03c-4bb5-8486-31df379f0e73" />
 
-
-
-egrep 'Linux.*world' newfile 
-## OUTPUT
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+<img width="372" height="99" alt="Screenshot 2026-04-30 071416" src="https://github.com/user-attachments/assets/2da70a4f-cda1-4884-9b6b-606cee932b80" />
 
 
 egrep l{2} newfile
@@ -231,6 +229,7 @@ egrep l{2} newfile
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="407" height="200" alt="Screenshot 2026-04-30 071524" src="https://github.com/user-attachments/assets/4c143321-123e-41f4-8504-d8734b46fa80" />
 
 
 cat > file23
@@ -320,11 +319,13 @@ seq 10 | sed -n '4,6p'
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+<img width="506" height="117" alt="Screenshot 2026-04-30 071848" src="https://github.com/user-attachments/assets/bfef559a-66e0-4018-ac43-fe472658bebb" />
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+<img width="551" height="152" alt="Screenshot 2026-04-30 071855" src="https://github.com/user-attachments/assets/e1260f8d-e59a-46de-a428-a9e7edb9be38" />
 
 
 
@@ -456,6 +457,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="463" height="186" alt="Screenshot 2026-04-30 072634" src="https://github.com/user-attachments/assets/79153354-cf91-4986-b756-e04fd9213f0b" />
 
 
 cat < scriptest.sh 
@@ -494,6 +496,7 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="621" height="496" alt="Screenshot 2026-04-30 073421" src="https://github.com/user-attachments/assets/2f546845-85ac-485a-9a43-be7b24c79ddc" />
 
  
 ls file1
@@ -584,6 +587,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="638" height="253" alt="Screenshot 2026-04-30 073823" src="https://github.com/user-attachments/assets/7d8d14ae-940b-4635-867f-af2aab2afea4" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -899,6 +903,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+<img width="694" height="542" alt="Screenshot 2026-04-29 210909" src="https://github.com/user-attachments/assets/8239b8fc-01c2-4749-8d01-bb3671a17a41" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -1035,6 +1041,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+<img width="603" height="207" alt="Screenshot 2026-04-30 075918" src="https://github.com/user-attachments/assets/08dd07cd-2515-4a11-af60-002a78a71167" />
 
 
 
@@ -1073,6 +1080,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+<img width="614" height="547" alt="Screenshot 2026-04-30 080253" src="https://github.com/user-attachments/assets/7534706d-5da0-4ca9-a642-5cbca6892edf" />
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1091,7 +1100,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ <img width="539" height="535" alt="Screenshot 2026-04-30 080925" src="https://github.com/user-attachments/assets/07c47e72-a46f-4086-a0ed-2635344d0b22" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1104,6 +1114,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
+<img width="496" height="481" alt="Screenshot 2026-04-30 080510" src="https://github.com/user-attachments/assets/9de4ffd3-9485-460e-acc3-110f8035cbf6" />
+
  
  
 cat > nc.awk
@@ -1135,7 +1147,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="522" height="431" alt="Screenshot 2026-04-30 081447" src="https://github.com/user-attachments/assets/caeec095-11f1-44f1-8a82-336da68f3478" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1162,6 +1175,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="615" height="248" alt="Screenshot 2026-04-30 082127" src="https://github.com/user-attachments/assets/53eb708e-f881-4688-9755-c4746e9963ae" />
 
 
 # RESULT:
